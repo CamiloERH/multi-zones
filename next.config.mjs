@@ -17,7 +17,7 @@ const rewrites = async () => [
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     rewrites,
-    assetPrefix: "https://qa.masproteccionsalud.cl",
+    // assetPrefix: "https://qa.masproteccionsalud.cl",
 };
 
 export default nextConfig;
