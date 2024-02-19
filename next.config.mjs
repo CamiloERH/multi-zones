@@ -16,7 +16,18 @@ const rewrites = async () => [
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    rewrites,
+    // rewrites,
+    async rewrites() {
+        return {
+            fallback: [
+                {
+                    source: '/:path*',
+                    destination: `https://qa.masproteccionsalud.cl/:path*`,
+                },
+            ],
+            
+        }
+    },
     // assetPrefix: "https://qa.masproteccionsalud.cl",
 };
 
