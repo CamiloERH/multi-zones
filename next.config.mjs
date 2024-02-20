@@ -24,6 +24,9 @@ const nextConfig = {
                     source: '/:path*',
                     destination: `https://qa.masproteccionsalud.cl/:path*`,
                 },
+                {
+                    
+                }
             ],
             
         }
