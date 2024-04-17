@@ -18,7 +18,7 @@ const nextConfig = {
                 headers: [
                     {
                         key: 'Content-Security-Policy',
-                        value: 'frame-ancestors https://medical.medismart.live',
+                        value: 'frame-ancestors https://qa.medical.medismart.live',
                     },
                 ],
             },
